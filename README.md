@@ -19,7 +19,7 @@ root@h:cd ~/Downloads$chmod 755 install_SDL2.sh
 root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
 # Play the game
- - clone the [github repository](https://github.com/Susiniosgit/3D_Maze.git)
+ - clone the [github repository](https://github.com/emmanuel-gyateng/3D_Maze.git)
  - Compile all .c files in the maze directory:
   ```
   gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL_image -o maze
